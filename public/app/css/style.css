@@ -1,0 +1,95 @@
+#mainWrap{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    /*position: fixed;*/
+}
+
+aside{
+	width: 5%;
+	color:#fff;
+	background-color: #000;
+	float: left;
+	height: 100%;
+}
+
+#asideIconHold{
+	padding: 0;
+	margin: 100px 20px;
+	list-style: none;
+}
+
+#asideIconHold li{
+	padding:10px 0;
+}
+
+#asideIconHold li a{
+text-decoration:none;
+color: #fff;
+font-size: 20px;
+}
+
+section{
+	width: 90%;
+	padding:30px 0;
+	display: block;
+}
+
+#topIconHolder{
+	background:rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	margin: 0 50%;
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+}
+
+#topIconHolder ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#topIconHolder ul li{float: left;padding: 0 23px;}
+#topIconHolder ul li a{
+	color: #fff;
+	position: relative;
+}
+
+.slash:after{
+content: "\\";
+color: #fff;
+font-size: 32px;
+font-weight: bold;
+left: 2px;
+position: absolute;
+top: -10px;
+transform: rotate(-30deg);
+}
+#videoHold{
+	margin: 50px 35%;
+    width: 800px;
+}
+
+#videoHold ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#videoHold ul li{
+	float: left;
+}
+
+#max_vid{
+	border:1px solid #fff;
+	width: 800px;
+	height: 400px;
+	max-height: 400px;
+	display: block;
+}
+
+.bgc{
+        background-color: #4FC3F7;
+      }

@@ -23,8 +23,28 @@ angular
         templateUrl: 'views/room.html',
         controller: 'RoomCtrl'
       })
+      .when('/main', {
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
+      })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/business', {
+        templateUrl: 'views/business.html',
+        controller: 'BusinessCtrl'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl'
+      })
+      .when('/faq', {
+        templateUrl: 'views/faq.html',
+        controller: 'FAQCtrl'
+      })
       .otherwise({
-        redirectTo: '/room'
+        redirectTo: '/main'
       });
   });
 
