@@ -1,0 +1,19 @@
+{
+  "name": "miljul",
+  "version": "0.0.0",
+  "description": "miljul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "gaurav",
+  "license": "Miljul",
+  "dependencies": {
+    "express": "^4.10.6",
+    "node-uuid": "^1.4.2",
+    "socket.io": "~0.9.16"
+  }
+}

@@ -1,0 +1,12 @@
+<div class="video-wrapper">
+  <video-player class="col-md-4" ng-repeat="peer in peers" vid-src="{{peer.stream}}"></video-player>
+</div>
+<div ng-repeat="peer in peers">{{peer}}</div>
+<div class="video-wrapper">
+  <div class="col-md-2">
+    <video ng-src="{{getLocalVideo()}}" autoplay muted></video>
+  </div>
+</div>
+
+
+<button ng-click="shareScreen()">Start Screen Share</button>
